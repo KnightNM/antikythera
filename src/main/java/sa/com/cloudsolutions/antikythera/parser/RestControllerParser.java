@@ -32,7 +32,7 @@ import sa.com.cloudsolutions.antikythera.exception.GeneratorException;
 import sa.com.cloudsolutions.antikythera.generator.Antikythera;
 import sa.com.cloudsolutions.antikythera.generator.SpringTestGenerator;
 
-public class RestControllerParser extends DepsolvingParser {
+public class  RestControllerParser extends DepsolvingParser {
     private static final Logger logger = LoggerFactory.getLogger(RestControllerParser.class);
 
     /**
